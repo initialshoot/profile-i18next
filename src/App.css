@@ -2,14 +2,15 @@
     color: whitesmoke;
 }
 
-body {
+html {
     background-color: #080808;
 }
 
 
-/**  Nav **/
+/**   Nav   **/
 
 nav {
+    user-select: none;
     margin-left: 10vw;
     height: 100px;
     width: 80vw;
@@ -22,7 +23,7 @@ nav {
     border-radius: 0 0 10px 10px;
 }
 
-/**   Nav-bar  **/
+/**   Nav-bar   **/
 
 .options {
     font-size: 1.3rem;
@@ -94,18 +95,127 @@ nav {
     transform-origin: bottom left;
 }
 
-/**   Footer  **/
+/**   Container   **/
+
+.container {
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col1 {
+    width: 50.6vw;
+}
+
+.name {
+    font-size: 3.2rem;
+}
+
+/**   IMG   **/
+
+img {
+    border-radius: 50%;
+    width: 400px;
+    box-shadow: -1px 0 5px #ababab;
+}
+
+/**   Childs   **/
+
+.child,
+.grand-child,
+.great-grandson {
+    font-size: 2rem;
+    margin: 30px 0 30px 0;
+}
+
+.child {
+    width: 68%;
+    font-size: 1.3rem;
+}
+
+.grand-child button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3F8E00;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.8rem;
+    border-color: #5ac502;
+    box-shadow: 0 0 20px #3F8E00;
+    transition: all 0.3s ease-in-out;
+}
+
+.grand-child button:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 5px #ababab;
+    transition: all 0.3s ease-in-out;
+}
+
+/**   Technologies   **/
+
+.tech-text {
+    font-size: 1.5rem;
+    padding: 0 0 30px 4.2vw;
+}
+
+
+.technologies {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.technologies button {
+    opacity: 0.5;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #080808;
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-width: 1px;
+    border-color: #ababab;
+    transition: all 0.3s ease-in-out;
+}
+
+.technologies button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffffff;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+/**   Footer   **/
 
 footer {
+    position: fixed;
     width: 80vw !important;
     margin-left: 10vw;
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 0px 2px #ababab;
     user-select: none;
-    position: fixed;
     bottom: 0;
-    padding: 10px;
-    font-size: 1.3rem;
+    padding: 0px;
+    font-size: 1rem;
     width: 100%; 
     height: 50px;
     display: flex;
