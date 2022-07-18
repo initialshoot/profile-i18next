@@ -25,11 +25,11 @@ const Navbar = () => {
 
                 <div className='options2'>
 
-                    <a href='https://www.linkedin.com/in/omar-alejandro-s%C3%A1nchez-cuevas-91b521216/' target="_blank">
+                    <a href='https://www.linkedin.com/in/omar-alejandro-s%C3%A1nchez-cuevas-91b521216/' target="_blank" rel="noreferrer">
                         <FaLinkedinIn />
                     </a>
 
-                    <a href='https://twitter.com/dev_osanchez' target="_blank">
+                    <a href='https://twitter.com/dev_osanchez' target="_blank" rel="noreferrer">
                         <FaTwitter />
                     </a>
 

@@ -21,7 +21,7 @@ function App() {
           </div>
           <div className='profile-img'>
           
-            <img src='https://i.postimg.cc/K8wXgNNY/profile.jpg' alt='Profile Image'></img>
+            <img src='https://i.postimg.cc/K8wXgNNY/profile.jpg'></img>
           
           </div>
         </div>
@@ -34,43 +34,43 @@ function App() {
 
           <div className='technologies'>
 
-            <a href='https://es.reactjs.org/' target='_blank'>
+            <a href='https://es.reactjs.org/' target='_blank' rel="noreferrer">
               <button>
                 <FaReact /> React
               </button>
             </a>
             
-            <a href='https://angular.io/' target='_blank'>
+            <a href='https://angular.io/' target='_blank' rel="noreferrer">
               <button>
                 <FaAngular /> Angular
               </button>
             </a>
             
-            <a href='https://ionicframework.com/' target='_blank'>
+            <a href='https://ionicframework.com/' target='_blank' rel="noreferrer">
               <button>
                 <DiIonic /> Ionic
               </button>
             </a>
             
-            <a href='https://www.mongodb.com/es' target='_blank'>
+            <a href='https://www.mongodb.com/es' target='_blank' rel="noreferrer">
               <button>
                 <DiMongodb /> MongoDB
               </button>
             </a>
             
-            <a href='https://cloud.google.com/' target='_blank'>
+            <a href='https://cloud.google.com/' target='_blank' rel="noreferrer">
               <button>
                 <DiGoogleCloudPlatform /> Google Cloud
               </button>
             </a>
             
-            <a href='https://www.python.org/' target='_blank'>
+            <a href='https://www.python.org/' target='_blank' rel="noreferrer">
               <button>
                 <FaPython /> Python
               </button>
             </a>
             
-            <a href='https://www.java.com/es/' target='_blank'>
+            <a href='https://www.java.com/es/' target='_blank' rel="noreferrer">
               <button>
                 <FaJava /> Java
               </button>
