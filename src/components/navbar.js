@@ -1,7 +1,14 @@
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+
+    const { i18n } = useTranslation();
+
+    function changeLanguage(language) {
+        i18n.changeLanguage(language);
+      }
 
     return (
 
@@ -13,12 +20,12 @@ const Navbar = () => {
                         Home
                     </a>
 
-                    <a className='hover-underline-animation'>
-                        English
+                    <a className='hover-underline-animation' onClick={() => changeLanguage("en")}>
+                            English
                     </a>
 
-                    <a className='hover-underline-animation'>
-                        Español
+                    <a className='hover-underline-animation' onClick={() => changeLanguage("es")}>
+                            Español
                     </a>
 
                 </div>

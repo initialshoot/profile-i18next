@@ -7,7 +7,12 @@ import Navbar from './components/navbar';
 import { FaReact, FaAngular, FaPython, FaJava } from "react-icons/fa";
 import { DiIonic, DiMongodb, DiGoogleCloudPlatform } from "react-icons/di"
 
+import { useTranslation } from 'react-i18next';
+
 function App() {
+  const { t } = useTranslation();
+
+  
 
   return (
     <div className="App">
@@ -29,7 +34,7 @@ function App() {
         <div>
 
           <div className='tech-text'>
-            Tecnologias que manejo
+            {t("technologies")}
           </div>
 
           <div className='technologies'>

@@ -4,9 +4,12 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { useContext } from "react";
 
 import { GlobalContext } from "../context/global/context";
+import { useTranslation } from 'react-i18next';
 
 const GrandChild = () => {
     const { add } = useContext(GlobalContext);
+
+    const { t } = useTranslation();
 
     return (
         <div>
@@ -15,7 +18,7 @@ const GrandChild = () => {
                 <button 
                 onClick={add}
                 >
-                Contar Visita 
+                {t("action")} 
                 <FaAngleDoubleRight /> 
                 </button>
                 

@@ -1,12 +1,16 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/global/context";
 
+import { useTranslation } from 'react-i18next';
+
 const GreatGrandson = () => {
     const { state } = useContext(GlobalContext);
 
+    const { t } = useTranslation();
+
     return (
         <div className="great-grandson">
-            Contador de visitas: {state.count}
+            {t("counter")}: {state.count}
         </div>
     );
 };
