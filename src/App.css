@@ -180,6 +180,12 @@ img {
     padding-bottom: 50px;
 }
 
+.technologies a:visited,
+.technologies a:link {
+    outline: transparent;
+    text-decoration: none;
+}
+
 .technologies button {
     opacity: 0.5;
     cursor: pointer;
