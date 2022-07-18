@@ -1,7 +1,7 @@
-const GreatGrandson = () => {
+const GreatGrandson = (props) => {
     return (
         <div className="great-grandson">
-            Contador de visitas: 0
+            Contador de visitas: {props.count}
         </div>
     );
 };

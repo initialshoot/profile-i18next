@@ -8,6 +8,7 @@ import { FaReact, FaAngular, FaPython, FaJava } from "react-icons/fa";
 import { DiIonic, DiMongodb, DiGoogleCloudPlatform } from "react-icons/di"
 
 function App() {
+
   return (
     <div className="App">
       <Navbar />
