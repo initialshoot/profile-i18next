@@ -1,17 +1,19 @@
 import GreatGrandson from "./greatGrandson";
 
 import { FaAngleDoubleRight } from "react-icons/fa";
-import { useState } from "react";
+import { useContext } from "react";
+
+import { GlobalContext } from "../context/global/context";
 
 const GrandChild = () => {
-    const [count, setCount] = useState(0);
+    const { add } = useContext(GlobalContext);
 
     return (
         <div>
             <div className="grand-child">
             
                 <button 
-                onClick={() => setCount((current) => current +1)}
+                onClick={add}
                 >
                 Contar Visita 
                 <FaAngleDoubleRight /> 
@@ -19,7 +21,7 @@ const GrandChild = () => {
                 
             </div>
             
-            <GreatGrandson count={count}/>
+            <GreatGrandson/>
         </div>
     );
 };
