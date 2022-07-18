@@ -11,7 +11,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 description: "Engineering student, employee within the company Capgemini. I like to learn new things, listen to music, play videogames, go to the movies and go out with my girlfriend or my friends to the movies, to eat or go to pool. When I finish engineering I would like to have learned more about programming, especially if it can be oriented towards video game development, and I would also like to have a good job abroad.",
                 action: "Count Visit",
                 counter: "Visit Counter"
-            }
+            },
         },
         es: {
             translation: {
@@ -19,7 +19,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
                 description: "Estudiante de Ingenieria, empleado dentro de la empresa Capgemini. Me gusta aprender nuevas cosas, escuchar musica, jugar videojuegos, ir al cine y salir con mi novia o mis amigos al cine, a comer o ir al billar. Cuando termine la ingenieria me gustaria haber aprendido más sobre programación, sobre todo si puede ser orientado a desarrollo de videojuegos, y tambien me gustaria tener un buen trabajo en el extranjero.",
                 action: "Contar Visita",
                 counter: "Contador de Visitas"
-            }
+            },
         },
     },
     fallbackLng: "en",
